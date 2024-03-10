@@ -391,6 +391,48 @@ img {
 .page-footer .social-link:focus {
   background-color: #31d0aa;
 }
+.subscribe-title {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.subscribel-wrapper {
+  margin-left: 80px;
+}
+.subscribel-form-lable {
+  position: absolute;
+  padding: 8px 16px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.subscribel-input {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  color: #fff;
+  margin-left: 0px;
+}
+.btn-subscribe {
+  display: inline;
+  border: 0px;
+  border-radius: 4px;
+  color: #fff;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background: #4d5ae5;
+}
+.btn-icon-send {
+  position: absolute;
+  right: 1px;
+  fill: #fff;
+}
 /* ====================MODAL==================== */
 .backdrop {
   position: fixed;
@@ -516,4 +558,59 @@ img {
   background: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+.privacy-link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  line-height: 1.4;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
+}
+.checkbox-lable {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+.modal-comment {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  min-width: 360px;
+  min-height: 120px;
+  padding: 8px 16px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+}
+
+.modal-comment:focus {
+  border: solid #626fff;
+}
+
+.btn-modal-submit {
+  border: 0px;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  margin: 24px 96px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+}
+.btn-modal-submit:focus,
+.btn-modal-submit:hover {
+  background: #404bbf;
 }
