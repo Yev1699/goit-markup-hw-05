@@ -438,11 +438,15 @@ img {
   display: inline;
 }
 .btn-subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
   border: 0px;
   border-radius: 4px;
   color: #fff;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background: #4d5ae5;
 }
