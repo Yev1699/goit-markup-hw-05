@@ -424,11 +424,15 @@ img {
 .subscribe-input {
   background-color: transparent;
   border: 1px solid #fff;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
   border-radius: 4px;
   width: 264px;
   height: 40px;
   color: #fff;
-  margin-left: 0px;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .btn-subscribe-wrapper {
   display: inline;
