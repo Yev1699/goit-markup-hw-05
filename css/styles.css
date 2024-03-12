@@ -351,9 +351,7 @@ img {
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
-
   font-family: "Raleway", sans-serif;
-
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -380,6 +378,7 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
+  justify-content: space-around;
 }
 .logo-wrapper {
   margin-right: 120px;
@@ -392,6 +391,9 @@ img {
   background-color: #31d0aa;
 }
 /* ===================Subscribe================== */
+.subscribe-wrapper {
+  margin-left: 80px;
+}
 .subscribe-form {
   display: flex;
 }
@@ -408,6 +410,7 @@ img {
   margin-left: 828px;
   bottom: 100px;
 }
+
 .subscribel-form-lable {
   position: absolute;
   padding: 8px 16px;
@@ -417,7 +420,7 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
 }
-.subscribel-input {
+.subscribe-input {
   background-color: transparent;
   border: 1px solid #fff;
   border-radius: 4px;
@@ -425,6 +428,9 @@ img {
   height: 40px;
   color: #fff;
   margin-left: 0px;
+}
+.btn-subscribe-wrapper {
+  display: inline;
 }
 .btn-subscribe {
   border: 0px;
@@ -436,10 +442,13 @@ img {
   background: #4d5ae5;
 }
 .btn-icon-send {
-  position: absolute;
+  display: inline;
   right: 1px;
   fill: #fff;
 }
+/* .btn-name {
+  margin-left: 24px;
+} */
 /* ====================MODAL==================== */
 .backdrop {
   position: fixed;
