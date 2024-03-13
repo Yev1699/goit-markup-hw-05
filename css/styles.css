@@ -551,7 +551,6 @@ img {
 }
 .input-wrapper {
   position: relative;
-  margin-bottom: 16px;
 }
 .modal-input {
   resize: none;
@@ -577,6 +576,9 @@ img {
 }
 .modal-input:focus + .input-icon {
   fill: #4d5ae5;
+}
+.checkbox-wrapper {
+  margin-bottom: 24px;
 }
 .custom-checkbox {
   width: 16px;
@@ -613,6 +615,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+}
+.modal-form-comment {
+  margin-bottom: 16px;
 }
 .modal-comment {
   resize: none;
