@@ -551,6 +551,7 @@ img {
 }
 .input-wrapper {
   position: relative;
+  margin-bottom: 16px;
 }
 .modal-input {
   resize: none;
