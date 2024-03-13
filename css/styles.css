@@ -493,6 +493,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-close {
   position: absolute;
@@ -535,9 +536,12 @@ img {
   margin-bottom: 16px;
 }
 .modal-form-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .modal-form-lable {
+  resize: none;
+  background-color: transparent;
+  outline: transparent;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -549,14 +553,15 @@ img {
   position: relative;
 }
 .modal-input {
+  resize: none;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   width: 100%;
   height: 40px;
-
+  background-color: transparent;
   padding-left: 38px;
   outline: transparent;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-input:focus {
   border-color: #4d5ae5;
@@ -607,6 +612,9 @@ img {
   color: #8e8f99;
 }
 .modal-comment {
+  resize: none;
+  outline: transparent;
+  background-color: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   min-width: 360px;
@@ -617,10 +625,11 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-comment:focus {
-  border: solid #626fff;
+  border: solid #4d5ae5;
 }
 
 .btn-modal-submit {
